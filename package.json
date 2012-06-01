@@ -1,0 +1,18 @@
+{
+  "author": "alexstrat",
+  "name": "dgram-browserify",
+  "description": "dgram module for the browser thru a proxy based on socket.io",
+  "version": "0.0.11",
+  "homepage": "https://github.com/alexstrat/dgram-browserify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexstrat/dgram-browserify.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">=0.4.12"
+  },
+  "dependencies": {
+    "simudp" : "0.0.11"
+    }
+}
