@@ -2,7 +2,7 @@ Kind of udp support for the browser : replace the [dgram](http://nodejs.org/api/
 
 *dgram-browserify* is a wrapper around [simudp](https://github.com/alexstrat/simudp) for automatic [browserify](https://github.com/substack/node-browserify) support.
 
-**Be careful**, for the [moment](https://github.com/substack/node-browserify/pull/143), the main version provides a broken implementation of Buffer. That's why [this](https://github.com/toots/node-browserify) version should be used..
+**Be careful**, for the [moment](https://github.com/substack/node-browserify/pull/143), the main *browserify* version provides a broken implementation of *Buffer*. That's why [this](https://github.com/toots/node-browserify) version should be used..
 
 ### Installation
 
@@ -12,7 +12,7 @@ $ npm install dgram-browserify
 
 ### Use
 
-**Server-side**, the proxy server shouyld be launched :
+**Server-side**, the proxy server should be launched :
 
 ```js
 var server = require('http').createServer();
