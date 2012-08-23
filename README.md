@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/alexstrat/dgram-browserify.png)](http://travis-ci.org/alexstrat/dgram-browserify)
 Kind of udp support for the browser : replace the [dgram](http://nodejs.org/api/dgram.html) module. Behind the scene, a [socket.io](http://socket.io)/udp proxy makes this possible.
 
 *dgram-browserify* is a wrapper around [simudp](https://github.com/alexstrat/simudp) for automatic [browserify](https://github.com/substack/node-browserify) support.
