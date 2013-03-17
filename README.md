@@ -2,8 +2,6 @@ Kind of udp support for the browser : replace the [dgram](http://nodejs.org/api/
 
 *dgram-browserify* is a wrapper around [simudp](https://github.com/alexstrat/simudp) for automatic [browserify](https://github.com/substack/node-browserify) support.
 
-**Be careful**, for the [moment](https://github.com/substack/node-browserify/pull/143), the main *browserify* version provides a broken implementation of *Buffer*. That's why [this](https://github.com/toots/node-browserify) version should be used..
-
 ### Installation
 
 ```bash
